@@ -1,0 +1,31 @@
+create table personal_project.gender_data_uk
+
+(
+    EmployerName varchar(255) null,
+    EmployerId varchar(255) null,
+    Address varchar(255) null,
+    PostCode varchar(255) null,
+    CompanyNumber varchar(255) null,
+    SicCodes varchar(255) null,
+    DiffMeanHourlyPercent double(10,4) null,
+    DiffMedianHourlyPercent double(10,4) null,
+    DiffMeanBonusPercent double(10,4) null,
+    DiffMedianBonusPercent double(10,4) null,
+    MaleBonusPercent double(10,4) null,
+    FemaleBonusPercent double(10,4) null,
+    MaleLowerQuartile double(10,4) null,
+    FemaleLowerQuartile double(10,4) null,
+    MaleLowerMiddleQuartile double(10,4) null,
+    FemaleLowerMiddleQuartile double(10,4) null,
+    MaleUpperMiddleQuartile double(10,4) null,
+    FemaleUpperMiddleQuartile double(10,4) null,
+    MaleTopQuartile double(10,4) null,
+    FemaleTopQuartile double(10,4) null,
+    CompanyLinkToGPGInfo varchar(255) null,
+    ResponsiblePerson varchar(255) null,
+    EmployerSize varchar(255) null,
+    CurrentName varchar(255) null,
+    SubmittedAfterTheDeadline int null,
+    DueDate timestamp null,
+    DateSubmitted timestamp null
+);
