@@ -1,0 +1,4 @@
+dataset.name=datasetName
+table.name=tableName
+gs.source.uri=localSourceUri
+project.name=projectName
