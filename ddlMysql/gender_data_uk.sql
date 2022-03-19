@@ -1,4 +1,4 @@
-create table personal_project.gender_data_uk
+create table gender_data_uk
 
 (
     EmployerName varchar(255) null,
