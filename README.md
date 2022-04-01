@@ -7,6 +7,7 @@ The data can be downloaded from `https://gender-pay-gap.service.gov.uk/viewing/d
 1. Install mysql using `brew install mysql` in mac or `sudo apt-get install mysql` in ubuntu family. (Operating systems I use)
 2. Follow ddlMysql folder to create tables.
 3. Follow formatDataInMysql to format data as per Bigquery format.
+4. Follow loadToBigQuery to upload formatted data to Bigquery.
 
 # Coders:
 1. vishu9219
