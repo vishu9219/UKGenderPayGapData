@@ -3,3 +3,4 @@
 **/application.properties
 **/key.json
 target
+.DS_Store
